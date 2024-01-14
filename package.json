@@ -1,0 +1,25 @@
+{
+  "name": "chatbot-wbsistemas",
+  "version": "1.0.0",
+  "description": "Chatbot usando Node.js, TypeScript e Socket.IO",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot",
+    "typescript",
+    "socket.io",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
